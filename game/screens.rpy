@@ -337,8 +337,6 @@ screen navigation():
             imagebutton auto "gui/ls_%s.png" focus_mask True action ShowMenu("load")
             imagebutton auto "gui/ld_%s.png" focus_mask True action ShowMenu("preferences")
             imagebutton auto "gui/pd_%s.png" focus_mask True action Quit()
-
-
             # Alternatywnie - użycie warunku do wyświetlania dodatkowych przycisków
             # if show_additional_buttons:
             #     imagebutton auto "gui/lg_%s.png" focus_mask True action Start()

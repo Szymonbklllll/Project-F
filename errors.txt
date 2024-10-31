@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 331: vbox expects a non-empty block.
-    vbox:
-         ^
+File "game/screens.rpy", line 339: Line is indented, but the preceding imagebutton statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    imagebutton auto "gui/pd_%s.png" focus_mask True action Quit()
+    ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Thu Oct 31 11:26:10 2024
+Thu Oct 31 12:13:14 2024
